@@ -8,9 +8,19 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --max-warnings 0",
+<<<<<<< HEAD
     "check-types": "tsc --noEmit",
     "tailwind:version": "node ./node_modules/.bin/tailwindcss.cmd --version",
     "postcss:version": "node ./node_modules/.bin/postcss.cmd --version"
+=======
+<<<<<<< HEAD
+    "check-types": "tsc --noEmit"
+=======
+    "check-types": "tsc --noEmit",
+    "tailwind:version": "tailwindcss -v",
+    "postcss:version": "postcss -v"
+>>>>>>> parent of 76e956b (ll)
+>>>>>>> 1f303ed01b0ef7dd85e1e1f5a3bbfdb077015754
   },
   "dependencies": {
     "@repo/ui": "*",
