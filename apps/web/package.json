@@ -8,7 +8,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --max-warnings 0",
+<<<<<<< HEAD
     "check-types": "tsc --noEmit"
+=======
+    "check-types": "tsc --noEmit",
+    "tailwind:version": "tailwindcss -v",
+    "postcss:version": "postcss -v"
+>>>>>>> parent of 76e956b (ll)
   },
   "dependencies": {
     "@repo/ui": "*",
