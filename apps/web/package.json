@@ -8,9 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --max-warnings 0",
-    "check-types": "tsc --noEmit",
-    "tailwind:version": "node ./node_modules/.bin/tailwindcss.cmd --version",
-    "postcss:version": "node ./node_modules/.bin/postcss.cmd --version"
+    "check-types": "tsc --noEmit"
   },
   "dependencies": {
     "@repo/ui": "*",
@@ -27,8 +25,6 @@
     "@types/react-dom": "19.1.1",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.34.0",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.15",
     "typescript": "5.9.2"
   }
 }
